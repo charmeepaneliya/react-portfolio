@@ -1,0 +1,805 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <body>
+    <div class="bg-effect">
+      <div class="aurora"></div>
+    </div>
+
+    <!------------------------------------------------------ NAVBAR ------------------------------------------------------>
+
+    <nav class="navbar navbar-expand-lg custom-navbar rounded-4 mt-3"  data-aos="fade-down">
+      <div class="container">
+        <a class="navbar-brand ms-5" href="#hero"
+          >Charmee<span style="color: #38bdf8; font-weight: 700">.</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <!-- <li class="nav-item">
+                <button class="btn hire-btn" type="submit">
+                  Hire me
+                </button>
+              </li> -->
+          </ul>
+          <form class="d-flex" role="search">
+            <a href="#contact" class="btn hire-btn me-5">Hire me</a>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!------------------------------------------------------ HERO SECTION ------------------------------------------------------>
+
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="row align-items-center min-vh-100">
+          <!-- left -->
+
+          <div class="col-lg-6" data-aos="fade-right">
+            <span>👋 Hello, I'm</span>
+
+            <h1 class="hero-title mt-4">
+              Charmee <span class="">Paneliya</span>
+            </h1>
+
+            <h3 class="hero-role">Full Stack Developer</h3>
+
+            <p class="hero-desc mt-4">
+              I build modern, scalable and responsive web applications using
+              HTML, CSS, Bootstrap, JavaScript, React, Node.js, Express.js and
+              MongoDB.
+            </p>
+
+            <div class="mt-5">
+              <a href="project.html" class="btn hero-btn">View Projects</a>
+              <a href="#contact" class="btn hero-btn-outline ms-3"
+                >Contact Me</a
+              >
+            </div>
+          </div>
+
+          <!-- Right -->
+
+          <div class="col-lg-6 text-center" data-aos="fade-left">
+            <div class="hero-image">
+              <span class="orbit orbit1"></span>
+              <span class="orbit orbit2"></span>
+              <span class="orbit orbit3"></span>
+
+              <img src="./images/charmi.jpg" class="profile" alt="profile" />
+              <img
+                src="./images/E34F26.svg"
+                class="tech html"
+                alt="tech html"
+              />
+              <img src="./images/css.svg" class="tech css" alt="tech css" />
+              <img src="./images/js.svg" class="tech js" alt="tech js" />
+              <img
+                src="./images/react.svg"
+                class="tech react"
+                alt="tech react"
+              />
+              <img src="./images/node.svg" class="tech node" alt="tech node" />
+              <img
+                src="./images/mongodb.svg"
+                class="tech mongo"
+                alt="tech mongo"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------------------------------- ABOUT SECTION --------------------------------------------------------->
+
+    <section class="about-section py-5" id="about" >
+      <div class="container">
+        <!-- sectin-heading -->
+
+        <div class="text-center mb-5" data-aos="zoom-in">
+          <h6 class="section-subtitle">ABOUT ME</h6>
+          <h2 class="section-title">Know more About Me</h2>
+        </div>
+
+        <div class="row align-items-center gy-5" data-aos="zoom-in-up">
+          <!-- left-side -->
+
+          <div class="col-lg-5 text-center">
+            <div class="about-image">
+              <div class="image-glow"></div>
+              <img
+                src="./images/charmi.jpg"
+                class="img-fluid profile-about"
+                alt="Profile"
+              />
+            </div>
+          </div>
+
+          <!-- Right-side -->
+
+          <div class="col-lg-7">
+            <div class="about-title">Full Stack Developer</div>
+            <p class="about-text mt-4">
+              I'm a passionate Full Stack Developer who loves creating modern,
+              responsive and user-friendly web applications. I enjoy solving
+              real-world problems using clean code and continuously learning new
+              technologies.
+            </p>
+
+            <!-- Button -->
+
+            <div class="mt-5">
+              <a
+                href="./pdf/CharmeePaneliyaResume  (1).pdf"
+                class="btn about-btn"
+                target="_blank"
+                >Download CV</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------------------------------------------------- TECH STACK SECTION ------------------------------------------------------>
+
+    <section class="tech-section py-5" id="skills">
+      <div class="container">
+        <!-- Heading -->
+
+        <div class="text-center mb-5" data-aos="zoom-in">
+          <span class="section-subtitle">MY SKILLS</span>
+          <h2 class="section-title mt-2">Tech Stack</h2>
+          <p class="section-desc">
+            Technologies I use to build modern web applications.
+          </p>
+        </div>
+
+        <div class="row g-4" data-aos="flip-up">
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="skill-card">
+              <img src="./images/E34F26.svg" alt="html" />
+              <h5>HTML5</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="skill-card">
+              <img src="./images/css.svg" alt="css" />
+              <h5>CSS3</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="skill-card">
+              <img src="./images/bootstrap-original.svg" alt="bootstrap" />
+              <h5>Bootstrap</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="skill-card">
+              <img src="./images/js.svg" alt="JavaScript" />
+              <h5>JavaScript</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="skill-card">
+              <img src="./images/react.svg" alt="react" />
+              <h5>React</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="skill-card">
+              <img src="./images/node.svg" alt="Node" />
+              <h5>Node.js</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="skill-card">
+              <img src="./images/express-original.svg" alt="express" />
+              <h5>Express.js</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="skill-card">
+              <img src="./images/mongodb.svg" alt="MongoDB" />
+              <h5>MongoDB</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------------------------------ PROJECT SECTION ------------------------------------------------------>
+
+    <section class="project-section py-5" id="projects">
+      <div class="container" >
+        <!-- Heading -->
+        <div class="text-center mb-5" data-aos="fade-left">
+          <span class="section-subtitle">MY WORK</span>
+          <h2 class="section-title mt-2">Featured Projects</h2>
+          <p class="section-desc">
+            Here are some of my recent Full Stack Development projects.
+          </p>
+        </div>
+
+        <div class="row g-4" data-aos="fade-right">
+          <!-- Project 1 -->
+          <div class="col-lg-4">
+            <div class="project-card">
+              <img
+                src="images/restaurantly.png"
+                class="img-fluid project-img"
+                alt=""
+              />
+              <div class="project-content">
+                <h4>Restaurantly</h4>
+                <p>
+                  Restaurant landing page with responsive design, beautiful
+                  sections, Bootstrap components, and a clean user experience.
+                </p>
+                <div class="tech-list">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>Bootstrap</span>
+                </div>
+
+                <div class="mt-4">
+                  <a
+                    href="https://restaurantly-1n7r.vercel.app/"
+                    class="btn project-btn"
+                    target="_blank"
+                    >Live Demo</a
+                  >
+                  <a
+                    href="https://github.com/charmeepaneliya/Restaurantly"
+                    class="btn github-btn"
+                    target="_blank"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="col-lg-4">
+            <div class="project-card">
+              <img
+                src="images/weather-App.png"
+                class="img-fluid project-img"
+                alt=""
+              />
+              <div class="project-content">
+                <h4>Weather-App</h4>
+                <p>
+                  Built a responsive weather application using HTML, CSS, and
+                  JavaScript with real-time weather data.
+                </p>
+                <div class="tech-list">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+
+                <div class="mt-4">
+                  <a
+                    href="https://weather-app-project-jet.vercel.app/"
+                    class="btn project-btn"
+                    target="_blank"
+                    >Live Demo</a
+                  >
+                  <a
+                    href="https://github.com/charmeepaneliya/Weather-App-Project"
+                    class="btn github-btn"
+                    target="_blank"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Project 3 -->
+          <div class="col-lg-4">
+            <div class="project-card">
+              <img
+                src="images/Blush-beauty.png"
+                class="img-fluid project-img"
+                alt=""
+              />
+              <div class="project-content">
+                <h4>Blush & Beauty</h4>
+                <p>
+                  Responsive beauty salon website with modern UI, service
+                  showcase, pricing, gallery, and contact sections.
+                </p>
+                <div class="tech-list">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>Bootstrap</span>
+                </div>
+
+                <div class="mt-4">
+                  <a
+                    href="https://blush-beauty.vercel.app/"
+                    class="btn project-btn"
+                    target="_blank"
+                    >Live Demo</a
+                  >
+                  <a
+                    href="https://github.com/charmeepaneliya/Blush-Beauty"
+                    class="btn github-btn"
+                    target="_blank"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------------------- View more projects btn ----------------------->
+      <div class="text-center mt-5" data-aos="fade-left">
+        <a href="project.html" class="btn view-projects-btn">
+          View More Projects
+          <i class="bi bi-arrow-right ms-2"></i>
+        </a>
+      </div>
+    </section>
+
+    <!------------------------------------------------------ EDUCATION SECTION ------------------------------------------------------>
+
+    <section class="education-section py-5" id="education">
+      <div class="container">
+        <div class="text-center mb-5"  data-aos="fade-right">
+          <div class="section-title">My Journey</div>
+          <p class="section-subtitle">
+            My academic journey and continuous learning.
+          </p>
+        </div>
+
+        <div class="timeline" data-aos="fade-left">
+          <!-- BCA -->
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">2022 - 2025</span>
+              <h4>Bachelor of Computer Applications (BCA)</h4>
+              <h6>Maharaja Krishnakumarsinhji Bhavnagar University</h6>
+              <p>
+                Successfully completed BCA with a strong foundation in
+                Programming, Database Management, Web Development, Operating
+                Systems and Software Engineering.
+              </p>
+            </div>
+          </div>
+
+          <!-- Msc IT -->
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">2025 - Present</span>
+              <h4>Master of Science in Information Technology (M.Sc. IT)</h4>
+              <h6>Maharaja Krishnakumarsinhji Bhavnagar University</h6>
+              <p>
+                Currently pursuing M.Sc. IT while expanding knowledge in
+                Advanced Web Technologies, Software Development and Modern IT
+                Practices.
+              </p>
+            </div>
+          </div>
+
+          <!-- Full Stack Development -->
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-year">June 2025 - Present</span>
+              <h4>Full Stack Development Course</h4>
+              <h6>Red & White Skill Education, Bhavnagar</h6>
+              <p>
+                Learning Full Stack Development with HTML, CSS, Bootstrap,
+                JavaScript, React.js, Node.js, Express.js and MongoDB by
+                building real-world projects and improving problem-solving
+                skills.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------------------------------ TESTIMONIAL SECTION ------------------------------------------------------>
+
+    <section class="testimonial-section py-5" id="testimonial">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-right">
+          <div class="section-title">Testimonials</div>
+          <p class="section-subtitle">What people say about my work</p>
+        </div>
+
+        <div class="swiper testimonialSwiper" data-aos="fade-left">
+          <div class="swiper-wrapper">
+            <!-- Card-1 -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-slide">
+                <img
+                  src="https://randomuser.me/api/portraits/women/44.jpg"
+                  class="client-img"
+                  alt=""
+                />
+                <h5>Tisha Italiya</h5>
+                <span>UI/UX Graphic Designer</span>
+                <p>
+                  Charmee delivered an excellent responsive website with modern
+                  UI and clean code.
+                </p>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+              </div>
+            </div>
+
+            <!-- Card-2 -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-slide">
+                <img
+                  src="https://randomuser.me/api/portraits/women/44.jpg"
+                  class="client-img"
+                  alt=""
+                />
+                <h5>Vaishali Chauhan</h5>
+                <span>Full Stack Developer</span>
+                <p>
+                  Amazing attention to detail and very professional while
+                  building modern websites.
+                </p>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+              </div>
+            </div>
+
+            <!-- Card-3 -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-slide">
+                <img
+                  src="https://randomuser.me/api/portraits/women/44.jpg"
+                  class="client-img"
+                  alt=""
+                />
+                <h5>Disha Mehta</h5>
+                <span>Web Developer</span>
+                <p>
+                  Great developer with excellent problem-solving skills and
+                  clean project structure.
+                </p>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+              </div>
+            </div>
+
+            <!-- Card-4 -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-slide">
+                <img
+                  src="https://randomuser.me/api/portraits/women/44.jpg"
+                  class="client-img"
+                  alt=""
+                />
+                <h5>Bhoomi Sadhvani</h5>
+                <span>Frontend Developer</span>
+                <p>
+                  Highly recommended. The project was delivered on time with
+                  excellent quality.
+                </p>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination mt-4"></div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------------------------------ CONTACT SECTION ------------------------------------------------------>
+
+    <section class="contect-section py-5" id="contact">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-right">
+          <div class="section-title">Contect Me</div>
+          <p class="section-subtitle">
+            Let's build something amazing together.
+          </p>
+        </div>
+
+        <div class="contect-box" data-aos="fade-left">
+          <div class="row align-items-center">
+            <!-- Left -->
+
+            <div class="col-lg-5">
+              <h3 class="contect-heading">Get In Touch</h3>
+              <p class="contect-text">
+                I'm always open to discussing new projects, freelance work and
+                full stack opportunities.
+              </p>
+
+              <div class="contect-info">
+                <div class="info-item">
+                  <i class="bi bi-envelope-fill"></i>
+                  <div class="">
+                    <h6>Email</h6>
+                    <span>cjpaneliya9@gmail.com</span>
+                  </div>
+                </div>
+
+                <div class="info-item">
+                  <i class="bi bi-telephone-fill"></i>
+                  <div class="">
+                    <h6>Phone</h6>
+                    <span>+91 73839 10751</span>
+                  </div>
+                </div>
+
+                <div class="info-item">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  <div class="">
+                    <h6>Location</h6>
+                    <span>Bhavnagar, Gujarat</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- social -->
+
+              <div class="social-icons mt-4 mb-4">
+                <a href="https://github.com/charmeepaneliya" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/charmee-paneliya-19552538a/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+              </div>
+            </div>
+
+            <!-- Right-side -->
+
+            <div class="col-lg-7">
+              <form>
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <input
+                      type="text"
+                      class="form-control contect-input"
+                      placeholder="Your Name"
+                    />
+                  </div>
+
+                  <div class="col-md-6 mb-4">
+                    <input
+                      type="email"
+                      class="form-control contect-input"
+                      placeholder="Your Email"
+                    />
+                  </div>
+                </div>
+                <input
+                  type="text"
+                  class="form-contriol contect-input mb-4"
+                  placeholder="Subject"
+                />
+
+                <textarea
+                  rows="6"
+                  class="form-control contect-input mb-4"
+                  placeholder="your Message"
+                ></textarea>
+
+                <button class="btn hero-btn">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------------------------------ FOOTER ------------------------------------------------------>
+
+    <footer class="footer-section" data-aos="zoom-in-up">
+      <div class="container">
+        <div class="row gy-5">
+          <!-- About -->
+
+          <div class="col-lg-4">
+            <h3 class="footer-logo">Charmee<span>.</span></h3>
+            <p class="footer-text">
+              Full Stack Developer passionate about building modern, responsive
+              and scalable web applications with clean UI and efficient backend
+              solutions.
+            </p>
+          </div>
+
+          <!-- Quick Links -->
+
+          <div class="col-lg-4">
+            <div class="footer-title">Quick Links</div>
+            <ul class="footer-links">
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Tech Stack</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- social -->
+
+          <div class="col-lg-4">
+            <div class="footer-title">
+              <div class="footer-social">
+                <a href="https://github.com/charmeepaneliya" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/charmee-paneliya-19552538a/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <hr class="footer-line" />
+
+          <div class="footer-bottom">
+            <p>&copy; 2026 Charmee Paneliya. All Rights Reserved.</p>
+            <p>Built with ♥️ using HTML, CSS, Bootstrap & JavaScript</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <!------------------------------------------------ swiper -------------------------------------------------->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <script>
+      const swiper = new Swiper(".testimonialSwiper", {
+        slidesPerView: 3,
+
+        spaceBetween: 30,
+
+        loop: true,
+
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+          },
+
+          768: {
+            slidesPerView: 2,
+          },
+
+          992: {
+            slidesPerView: 3,
+          },
+        },
+      });
+    </script>
+
+    <!-- Custom Cursor -->
+
+    <div class="cursor"></div>
+    <div class="cursor-blur"></div>
+
+    <!-- Custom Cursor JS -->
+    <script>
+      const cursor = document.querySelector(".cursor");
+      const blur = document.querySelector(".cursor-blur");
+
+      document.addEventListener("mousemove", (e) => {
+        cursor.style.left = e.clientX + "px";
+        cursor.style.top = e.clientY + "px";
+
+        blur.style.left = e.clientX + "px";
+        blur.style.top = e.clientY + "px";
+      });
+
+      const hoverItems = document.querySelectorAll(
+        "a,button,.hero-btn,.hero-btn-outline,.project-card,.tech-card,.contact-card,.nav-link",
+      );
+
+      hoverItems.forEach((item) => {
+        item.addEventListener("mouseenter", () => {
+          cursor.classList.add("active");
+          blur.classList.add("active");
+        });
+
+        item.addEventListener("mouseleave", () => {
+          cursor.classList.remove("active");
+          blur.classList.remove("active");
+        });
+      });
+    </script>
+
+    <!-- AOS -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000, // Animation duration
+        easing: "ease-in-out",
+        once: true, // Animate only once
+        offset: 100, // Start animation 100px before element enters viewport
+        delay: 100,
+      });
+    </script>
+  </body>
+</html>
