@@ -19,7 +19,7 @@ const Footer = () => {
         <div className="footer-inner">
           {/* Brand */}
           <p className="footer-brand">
-            Charmee<span className="footer-brand-dot">.</span>
+            Charmee<span className="footer-brand-dot">●</span>
           </p>
 
           {/* Navigation links */}

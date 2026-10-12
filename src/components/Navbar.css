@@ -55,9 +55,14 @@
 
 /* The green dot after the name */
 .navbar-logo .logo-dot {
-  color: var(--accent-primary);
-  font-size: 1.8rem;
+  /* color: var(--accent-primary);
+  font-size: 1.5rem;
   line-height: 1;
+  border-radius: 50%; */
+   color: var(--accent-primary);
+  font-size: 0.55rem;
+  line-height: 1;
+  margin-left: 2px;
 }
 
 /* Small monospace subtitle under the name */

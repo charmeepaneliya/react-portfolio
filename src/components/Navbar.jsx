@@ -28,7 +28,7 @@ const Navbar = () => {
         {/* Logo / Brand */}
         <BsNavbar.Brand as={NavLink} to="/" className="navbar-logo">
           <span>
-            Charmee<span className="logo-dot">.</span>
+            Charmee<span className="logo-dot">●</span>
             <small className="logo-tag">Full Stack Developer</small>
           </span>
         </BsNavbar.Brand>

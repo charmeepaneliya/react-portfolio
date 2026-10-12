@@ -48,6 +48,9 @@
 
 .footer-brand .footer-brand-dot {
   color: var(--accent-primary);
+  font-size: 0.55rem;
+  line-height: 1;
+  margin-left: 2px;
 }
 
 /* Nav links row */
