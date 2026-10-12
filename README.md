@@ -1,3 +1,6 @@
+# Live Demo: 
+https://charmee-portfolio.vercel.app/
+
 # Charmee Paneliya | React Portfolio
 
 A modern, responsive personal portfolio website built with React to showcase my technical skills, education, projects, and journey as a Full Stack Developer.
